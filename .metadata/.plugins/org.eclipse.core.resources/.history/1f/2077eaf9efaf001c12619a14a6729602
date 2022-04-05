@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class CompSortImpl {
+	public static void main(String[] args) {
+		List<Person> p = new ArrayList<Person>();
+		p.add(new Person("Will", 33));
+		p.add(new Person("Whenes", 34));
+	}
+}

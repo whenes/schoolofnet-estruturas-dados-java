@@ -1,0 +1,9 @@
+import java.util.Stack;
+
+public class StackImpl {
+
+	public static void main(String[] args) {
+		Stack s = new Stack<>();
+		Random random = new Random();
+	}
+}

@@ -1,0 +1,8 @@
+import java.security.DomainCombiner;
+
+public class Vector {
+
+	public static void main(String[] args) {
+		
+	}
+}

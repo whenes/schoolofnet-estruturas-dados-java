@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+public class ArrSync {
+	public static void main(String[] args) {
+		List<String> list = Collections.synchronizedList(new ArrayList<String>());
+		list.add("Will");
+		list.add("Test");
+		list.add("abutre");
+		synchronized (list) {
+			Iterator<String> iterator = list.iterator();
+			while(iterator.hasNext()) {
+				System.out.println(iterator.next());
+			}
+		}
+		
+		List<String> list1 = new CopyOnWriteArrayList<String>();
+	}
+}

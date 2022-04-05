@@ -1,0 +1,11 @@
+import java.util.TreeSet;
+
+public class TreeSetImpl {
+	public static void main(String[] args) {
+		TreeSet tree = new TreeSet();
+		tree.add("Will");
+		tree.add("Michelli");
+		tree.add("Antonio");
+		tree.add("Neide");
+	}
+}

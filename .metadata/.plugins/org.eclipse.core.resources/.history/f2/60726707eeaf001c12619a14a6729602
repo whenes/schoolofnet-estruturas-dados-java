@@ -1,0 +1,7 @@
+import java.util.Collections;
+
+public class ArrSync {
+	public static void main(String[] args) {
+		List<String> list = Collections.synchronizedList(new ArrayList<String>);
+	}
+}

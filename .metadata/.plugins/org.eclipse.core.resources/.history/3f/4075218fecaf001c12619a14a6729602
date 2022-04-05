@@ -1,0 +1,7 @@
+import java.util.Queue;
+
+public class QueueImpl {
+	public static void main(String[] args) {
+		Queue q = new Queue<>();
+	}
+}

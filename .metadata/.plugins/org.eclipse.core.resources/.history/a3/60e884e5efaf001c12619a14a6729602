@@ -1,0 +1,8 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class CompSortImpl {
+	public static void main(String[] args) {
+		List<Person> p = new ArrayList<Person>();
+	}
+}
